@@ -10,10 +10,15 @@ public class exerises {
 		return a % b;
 	}
 	
+	public static String sayHello(String name) {
+		return "Hello " + name;
+	}
+	
 	public static void main(String[] args) {
         
 //		System.out.println(addition(2,3));
-		System.out.println(mod(3,4));
+//		System.out.println(mod(3,4));
+		System.out.println(sayHello("everyone"));
 		
     }
 	
